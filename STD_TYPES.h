@@ -6,6 +6,13 @@
 
 #ifndef STD_TYPES_H_
 #define STD_TYPES_H_
+
+typedef enum
+{
+	E_Ok,
+	E_Not_Ok,
+	E_Null_Pointer
+}Status_t;
 typedef signed char s8;
 typedef signed short int s16;
 typedef signed long int s32;
