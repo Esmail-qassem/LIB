@@ -13,6 +13,12 @@ typedef enum
 	E_Not_Ok,
 	E_Null_Pointer
 }Status_t;
+
+enum Ability
+{
+	Disable,
+	Enable
+};
 typedef signed char s8;
 typedef signed short int s16;
 typedef signed long int s32;
